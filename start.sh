@@ -8,4 +8,4 @@ echo Install pm2 globally
 sudo npm i -g pm2
 
 echo Start node server
-sudo pm2 start app.js --name server
+pm2 start app.js --name server
