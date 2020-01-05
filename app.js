@@ -26,7 +26,6 @@ routes = require('./routes/routes.js')(app);
 
 // error handlers
 error = require('./routes/error.js')(app);
-
 app.set('port', process.env.PORT || 3000);
 var server = app.listen(app.get('port'), function() {
     console.log('Express server listening on port ' + server.address().port);

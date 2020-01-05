@@ -1,9 +1,8 @@
 {
-  "name": "http-debugger",
-  "version": "0.0.0",
-  "private": true,
+  "name": "express-web-project-structure",
+  "version": "0.0.1",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./app.js"
   },
   "dependencies": {
     "body-parser": "~1.8.1",
@@ -14,5 +13,9 @@
     "handlebars": "^2.0.0",
     "morgan": "~1.3.0",
     "serve-favicon": "~2.1.3"
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^7.0.0"
   }
 }
